@@ -49,7 +49,9 @@ first(names, function(firstName){
   Then invoke the callback, passing in the last element in the array as the argument.
 */
 
-//Code Here
+function last(arr, callback){
+  callback(arr[arr.length - 1])
+}
 
 // Do not edit the code below.
 last(names, function(lastName){
